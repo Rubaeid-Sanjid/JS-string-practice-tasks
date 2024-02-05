@@ -44,3 +44,14 @@ else{
 console.log("==================================================================");
 
 //Task-4:
+let str5 = "x-rayx X-rayX";
+
+for (const letter of str5) {
+    if(letter === 'x'){
+        str5 = str5.replace('x','y');
+    }
+    else if(letter === 'X'){
+        str5 = str5.replace('X', 'Y');
+    }
+}
+console.log(str5);
