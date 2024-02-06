@@ -55,3 +55,17 @@ for (const letter of str5) {
     }
 }
 console.log(str5);
+
+console.log("==================================================================");
+
+// Task-5:
+let str6 = "hello guys, welcome to javaScript lessons.";
+
+let words = str6.split(' ');
+
+for (let i = 0; i<words.length; i++) {
+    words[i] = words[i].charAt(0).toUpperCase() + words[i].substring(1);
+}
+str6 = words.join(' ');
+console.log(str6);
+console.log("==================================================================");
